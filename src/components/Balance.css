@@ -1,0 +1,16 @@
+.balance {
+    height: 300px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.balance__amount {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 500;
+}

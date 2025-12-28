@@ -1,0 +1,48 @@
+.transactions__no-transactions-message {
+    color: var(--color-carcoal);
+    position: absolute;
+    display: inline-block;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, 50%);
+    font-size: 18px;
+}
+
+.transactions-list {
+    padding: 15px;
+}
+
+.transaction {
+    position: relative;
+    border-radius: var(--border-radius-m);
+}
+
+.transaction-content {
+    padding: 60px 20px 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.transaction-income {
+    background-color: var(--income);
+}
+
+.transaction-expense {
+    background-color: var(--expense);
+    color: #fff;
+}
+
+.transaction:last-child {
+    margin-bottom: 0;
+}
+
+.transaction-description {
+    display: inline-block;
+    word-break: break-word;
+    max-width: 600px;
+}
+

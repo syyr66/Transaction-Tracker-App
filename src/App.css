@@ -1,0 +1,7 @@
+.modal-open .main-content {
+    display: none;
+}
+
+.modal-open header {
+    display: block;
+}
